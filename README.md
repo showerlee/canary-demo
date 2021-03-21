@@ -1,7 +1,7 @@
 # Canary-demo
 This is a canary-demo that helps you achieve the canary deployment via istio with baby steps
 
-## Setup Istio env via [Istio Operator](../README.md)
+## Setup Istio env via [Istio Operator](https://github.com/showerlee/k8s_tutorial/blob/master/manifests/istio/istio-operator/README.md)
   https://istio.io/latest/docs/setup/install/operator/
 
 ## Steps by steps to deploy canary-demo
