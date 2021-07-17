@@ -13,9 +13,9 @@ This technique is mostly used when the tests are lacking or not reliable or if
 there is little confidence about the stability of the new release on the
 platform.
 
-**You can apply the canary deployment technique using the native way by
-adjusting the number of replicas or if you use Nginx as Ingress controller you
-can define fine grained traffic splitting via Ingress annotations.**
+You can apply the following canary deployment techniques:
 
-- [istio](istio/)
-- [nginx-ingress](nginx-ingress/)
+- [Istio](istio/) way by adjusting the weight in VirtualService.
+
+- [Nginx-ingress](nginx-ingress/) way by defining fine grained traffic splitting via Ingress annotations.
+

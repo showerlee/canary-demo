@@ -1,5 +1,4 @@
 # Canary demo using Istio service mesh
-====================================================
 
 This is a canary-demo that helps you achieve the canary deployment via istio with baby steps
 

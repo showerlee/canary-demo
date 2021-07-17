@@ -1,5 +1,4 @@
 # Canary demo using the nginx-ingress controller
-====================================================
 
 > In the following example, we shift traffic between 2 applications using the
 [canary annotations of the Nginx ingress
