@@ -1,5 +1,4 @@
-Canary demo
-=================
+# Canary demo
 
 > Version B is released to a subset of users, then proceed to a full rollout.
 
@@ -14,6 +13,8 @@ there is little confidence about the stability of the new release on the
 platform.
 
 You can apply the following canary deployment techniques:
+
+- [Native](native/) way by adjusting the number of replicas.
 
 - [Istio](istio/) way by adjusting the weight in VirtualService.
 
